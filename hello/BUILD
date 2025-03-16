@@ -7,3 +7,9 @@ kt_jvm_binary(
     srcs = ["hello.kt"],
     main_class = "HelloKt",
 )
+
+kt_jvm_binary(
+    name = "max",
+    srcs = ["max.kt"],
+    main_class = "MaxKt",
+)
